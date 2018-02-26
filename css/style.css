@@ -1,0 +1,240 @@
+html body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Hind, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+h3,
+h4 {
+    font-size: 22px;
+}
+
+.header {
+    /* height: 96px; */
+    background-color: lightseagreen;
+    font-size: 14px;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.wrapper-header {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* height: 96px; */
+}
+
+.header-container {
+    margin: auto 0;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__link {
+    text-decoration: none;
+    color: wheat;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.logo__link-color {
+    color: aqua;
+}
+
+.nav-bar__link {
+    text-decoration: none;
+    color: wheat;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar-item+.nav-bar-item {
+    margin-left: 40px;
+}
+
+.logo,
+.navigation {
+    margin: auto 0 auto 0;
+}
+
+.navigation {
+    padding: 40px;
+}
+
+.block-1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    background-color: rgb(20, 167, 64);
+    background-image: url("../img/01.jpg");
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.promo-block__text {
+    font-size: 25px;
+    margin: 40px 0;
+}
+
+
+/* button need to be remade */
+
+.button {
+    /* margin-top: 40px; */
+    padding: 20px 10px;
+    background-color: white;
+    transition: all 0.5s;
+    width: 200px;
+    margin: 0 auto;
+    color: grey;
+    border: 0;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+}
+
+.button__link {
+    /* padding: 20px 30px; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: grey;
+    /* background-color: white; */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.button__link:hover {
+    /* background-color: lightseagreen; */
+    color: white;
+}
+
+.button:hover {
+    background-color: lightseagreen;
+}
+
+.block-2-description {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.block-3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-3-container-content {
+    width: 31.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block-3-container__foto-1,
+.block-3-container__foto-2,
+.block-3-container__foto-3 {
+    height: 240px;
+    /* width: 360px; */
+    display: flex;
+    background-size: cover;
+}
+
+.block-3-container__foto-1 {
+    background-image: url("../img/970x647/01.jpg");
+}
+
+.block-3-container__foto-2 {
+    background-image: url("../img/970x647/02.jpg");
+    margin: 0 0.008% 0 0.008%;
+}
+
+.block-3-container__foto-3 {
+    background-image: url("../img/970x647/03.jpg");
+}
+
+.block-3-container__description {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-3-container__description-item {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 0 20px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #81848f;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    background: #17bed2;
+    margin: 6px 0 0 5px;
+    ;
+}
+
+a:hover {
+    color: lightgrey;
+}
